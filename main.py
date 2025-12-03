@@ -1,4 +1,3 @@
-import numpy as np
 import fp_wrapper as fp
 def main():
     # Here we seek to run some values through the fp_wrapper.py and the corresponding c code.
