@@ -8,7 +8,8 @@ _lib.fixed_point_solve.argtypes = [
     ctypes.c_double, ctypes.c_double, ctypes.c_double, ctypes.c_int,
     ctypes.POINTER(ctypes.c_double),
     ctypes.POINTER(ctypes.c_double),
-    ctypes.POINTER(ctypes.c_int)
+    ctypes.POINTER(ctypes.c_int),
+    ctypes.c_double
 ]
 _lib.fixed_point_solve.restype = ctypes.c_int
 
